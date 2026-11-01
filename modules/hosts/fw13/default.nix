@@ -1,13 +1,14 @@
 { self, inputs, ... }: {
-  flake.nixosConfigurations.daemonic-framework = inputs.nixpkgs.lib.nixosSystem {
+  flake.nixosConfigurations.blu-fw13 = inputs.nixpkgs.lib.nixosSystem {
     modules = (with self.nixosModules; [
       desktop
-      daemonic-framework-configuration
+      fw13-config
       dev
       terminal
       school
       zen
       personal
+      fw13-hardware
     ]) ++ [
       inputs.nixos-hardware.nixosModules.framework-amd-ai-300-series
     ];

@@ -3,9 +3,8 @@
     networking = {
       networkmanager = {
         enable = true;
-	dns = "none";
+      	dns = "none";
       };
-      wireless.enable = true;
       firewall = {
         enable = false;
         checkReversePath = false;

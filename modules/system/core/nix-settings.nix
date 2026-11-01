@@ -21,14 +21,6 @@
     nixpkgs = {
       config = {
         allowUnfree = true;
-	packageOverrides = pkgs: {
-	  unstable = import inputs.nixpkgs-unstable {
-	    system = pkgs.stdenv.hostPlatform.system;
-	    config = {
-	      allowUnfree = true;
-	    };
-	  };
-	};
       };
     };
   };

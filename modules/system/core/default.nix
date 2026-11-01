@@ -9,11 +9,8 @@
       audio
     ];
   in {
-    imports = 
-      [
-        /etc/nixos/hardware-configuration.nix
-      ]
-      ++modules;
+    imports = modules;
+
     services = {
       upower.enable = true;
       openssh.enable = true;
