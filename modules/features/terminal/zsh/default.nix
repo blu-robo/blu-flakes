@@ -8,8 +8,8 @@
 
       shellAliases = {
         nv = "nvim .";
-	      nrt = "sudo nixos-rebuild test --flake .#blu-fw13";
-      	nrs = "sudo nixos-rebuild switch --flake .#blu-fw13";
+	      nrt = "sudo nixos-rebuild test --flake .#$(hostname)";
+      	nrs = "sudo nixos-rebuild switch --flake .#$(hostname)";
       	gs = "git status";
 	      ga = "git add .";
       	gc = "git commit";
