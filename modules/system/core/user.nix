@@ -6,7 +6,8 @@
     imports = modules;
     users.users.blu_robo = {
       isNormalUser = true;
-      extraGroups = [ "networkmanager" "root" "wheel" ];
+      extraGroups = [ "networkmanager" "wheel" ];
+      initialPassword = "placeholder";
     };
   };
 }
