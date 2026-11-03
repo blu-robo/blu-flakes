@@ -5,6 +5,7 @@
       libreoffice-qt
       imagemagick
       cachix
+      gcc
     ];
     services = {
       avahi = {

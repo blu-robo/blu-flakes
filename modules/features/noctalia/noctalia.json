@@ -290,7 +290,7 @@
     "wallpaper": {
       "enabled": true,
       "overviewEnabled": false,
-      "directory": "/home/blu_robo/daemonic-flakes/auxiliary/wallpapers",
+      "directory": "~/blu-flakes/auxiliary/wallpapers",
       "monitorDirectories": [],
       "enableMultiMonitorDirectories": false,
       "showHiddenFiles": false,
